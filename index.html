@@ -98,6 +98,15 @@ FORMATS`,items:["Parquet","CSV","DataFrames","XML"],quip:"The scrolls and codice
     #_rv_hero_zone{
       position:fixed;pointer-events:auto;z-index:1000;cursor:none!important;
     }
+
+    @media (max-width: 768px) {
+      #_rv_cur, #_rv_ring {
+        display: none !important;
+      }
+      * {
+        cursor: auto !important;
+      }
+    }
   </style>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
